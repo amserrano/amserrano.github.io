@@ -37,7 +37,7 @@ body {
 #nav {
     position: relative;
     top: 15px;
-    left: 805px;
+    left: 700px;
     width:430px;
     }
 
@@ -54,9 +54,10 @@ body {
 #nav ul li a {
     margin:10px;
     color:black;
-    padding:4px;
+    padding:-2px;
     font-size:16px;
-    font-family: "Tahoma";
+    font-family: "Courier New";
+    font-style: bold;
     text-decoration:none;
     }
 
@@ -179,6 +180,7 @@ body {
 
 #photos {
     position: relative;
+    top: 10px;
     width: 880px;
     height: 765px;
     padding: 10px;
@@ -188,6 +190,6 @@ body {
 
 #photos img {
     position: absolute;
-    top: 40px;
+    top: -30px;
     left: 220px;
 }
