@@ -12,7 +12,7 @@ $(function() {
 .lastIndexOf("/")+1);
      $("#nav ul li a").each(function(){
           if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
-          $(this).addClass("page1");
+          $(this).addClass("page");
      })
 });
 
